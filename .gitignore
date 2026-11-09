@@ -1,0 +1,24 @@
+# Secretos y credenciales
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials
+secrets.*
+*.tfvars
+*.tfstate
+*.tfstate.*
+
+# Configuración de nube
+.aws/
+.azure/
+.config/gcloud/
+*.kubeconfig
+
+# Capturas sin revisar
+capturas-sin-revisar/
+
+# Sistema
+.DS_Store
+Thumbs.db
